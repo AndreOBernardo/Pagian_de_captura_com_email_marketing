@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;  
+    color: #fff;
+}
+    
+header{
+    background-color: #5774B0;
+    text-align: center;
+    color:white;
+    padding: 10px; 
+}
+.title{
+    font-size: 26px;
+    color:#fff;
+    text-shadow:2px 2px 4px #000000;
+}
+
+section{
+     padding: 20px;
+     background-image: url('https://i.imgur.com/XuL0GjC.jpg');
+     background-size: cover;
+     background-position: auto;
+     background-attachment: fixed;
+     overflow: hidden;
+}
+
+.formContainer{
+    max-width: 230px;
+    background-color: #ffffffbb;
+    padding:20px;
+    float:right;
+    border-radius: 12px;
+}
+
+h2{
+    font-size: 16px;
+    text-align: center;
+    color:#000000;
+}
+
+p{
+    text-align: center;
+    color:#000000;
+}
+
+.mb{
+    margin-bottom: 15px;
+}
+
+.p{
+    color:#fff; 
+}
+
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border:none;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ffffffbb;
+    outline-style: none;
+}
+
+input[type="submit"]{
+    color:white;
+    background-color: #B7293F;
+    font:bold;
+    color:#fff;
+    text-shadow:2px 2px 4px #000000;
+}
+.inscrit:hover {
+    color: #000;
+}
+
+select{
+    /*appearance: none;*/
+    /* background-image: url('https://i.imgur.com/7BT7A4H.png'); */
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+}
+
+.picture{
+    width:120px;
+    border-radius: 15px;
+}
+
+footer{
+    background-color: #5774B0;
+    padding: 30px;
+    text-align: center;
+}
+
+.description{
+    display: inline-block;
+    text-align: justify;
+    color:white;
+    max-width: 40%;
+    margin-left: 40px;
+}
+
+.description p, .description h3{
+    margin-bottom: 40px;
+}
+
+.description h3{
+    font-size: 24px;
+    text-align: center;
+    color:#fff;
+    text-shadow:2px 2px 4px #000000;
+}
+
+
+    
